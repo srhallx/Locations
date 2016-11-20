@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Locations"
              x:Class="Locations.MainPage">
+  <Grid>
+    <Image Source="Locationsbackground.png" Aspect="AspectFill"/>
+    <StackLayout Padding="20,140,20,40" VerticalOptions="End">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
-
+      <Button x:Name="DemoButton" TextColor="White" Text="See a demo of the app" VerticalOptions="End" AutomationId="DemoButton"/>
+      
+    </StackLayout>
+  </Grid>
+  
 </ContentPage>

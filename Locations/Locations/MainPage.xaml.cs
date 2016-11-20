@@ -12,6 +12,13 @@ namespace Locations
         public MainPage()
         {
             InitializeComponent();
+
+            DemoButton.Clicked += DemoButton_Clicked;
+        }
+
+        private void DemoButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NavigationPage(new HomePage()));
         }
     }
 }
