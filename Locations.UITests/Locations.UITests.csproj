@@ -66,8 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Locations\Locations.iOS\Locations.iOS.csproj">
-      <Project>{382ff98a-62a6-405c-890c-84efabca010e}</Project>
+      <Project>{382FF98A-62A6-405C-890C-84EFABCA010E}</Project>
       <Name>Locations.iOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

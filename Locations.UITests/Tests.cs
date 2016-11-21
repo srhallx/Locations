@@ -7,7 +7,7 @@ using Xamarin.UITest.Queries;
 
 namespace Locations.UITests
 {
-    [TestFixture(Platform.Android)]
+  
     [TestFixture(Platform.iOS)]
     public class Tests
     {
