@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "files": [
+    "Calabash.dll",
+    "Locations.dll",
+    "Locations.UITests.dll",
+    "Microsoft.Azure.Mobile.Analytics.dll",
+    "Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll",
+    "Microsoft.Azure.Mobile.Crashes.dll",
+    "Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll",
+    "Microsoft.Azure.Mobile.dll",
+    "Microsoft.Azure.Mobile.iOS.Bindings.dll",
+    "nunit.framework.dll",
+    "Xamarin.Forms.Core.dll",
+    "Xamarin.Forms.Platform.dll",
+    "Xamarin.Forms.Platform.iOS.dll",
+    "Xamarin.Forms.Xaml.dll",
+    "Xamarin.UITest.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll",
+    "Xamarin.Forms.Platform.iOS.resources.dll"
+  ],
+  "testFramework": {
+    "name": "ui_test",
+    "data": {
+      "tests": {
+        "method": {
+          "Locations.UITests.dll": [
+            "Locations.UITests.Tests(Android).AppLaunches",
+            "Locations.UITests.Tests(iOS).AppLaunches"
+          ]
+        },
+        "fixture": {
+          "Locations.UITests.dll": [
+            "Locations.UITests.Tests(Android)",
+            "Locations.UITests.Tests(iOS)"
+          ]
+        }
+      }
+    }
+  }
+}
