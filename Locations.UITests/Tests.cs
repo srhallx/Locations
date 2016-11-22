@@ -29,8 +29,11 @@ namespace Locations.UITests
         public void AppLaunches()
         {
             app.Screenshot("First screen.");
+            app.WaitForElement(c => c.Id("DemoButton"));
             app.Tap(c => c.Id("DemoButton"));
+
             app.WaitForElement(c => c.Id("HomePage"), "Did not navigate to HomePage", new TimeSpan(0,0,0,10));
+            app.Screenshot("Second screen.");
         }
     }
 }
