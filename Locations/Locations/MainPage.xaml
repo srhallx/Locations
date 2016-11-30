@@ -5,11 +5,15 @@
              x:Class="Locations.MainPage">
   <Grid>
     <Image Source="Locationsbackground.png" Aspect="AspectFill"/>
-    <StackLayout Padding="20,140,20,40" VerticalOptions="End">
+    
+    <StackLayout Padding="60,140,60,60" VerticalOptions="End">
 
-      <Button x:Name="DemoButton" TextColor="White" Text="See a demo of the app" VerticalOptions="End" AutomationId="DemoButton"/>
+      <Entry x:Name="Username" Placeholder="User name"/>
+      <Entry x:name="Password" Placeholder="Password" IsPassword="true"/>
       
+      <Button x:Name="DemoButton" TextColor="Black" Text="See a demo of the app" VerticalOptions="End" AutomationId="DemoButton"/>
+
     </StackLayout>
   </Grid>
-  
+
 </ContentPage>
