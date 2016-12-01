@@ -11,7 +11,7 @@
       <Entry x:Name="Username" Placeholder="User name"/>
       <Entry x:name="Password" Placeholder="Password" IsPassword="true"/>
       
-      <Button x:Name="DemoButton" TextColor="Black" Text="See a demo of the app" VerticalOptions="End" AutomationId="DemoButton"/>
+      <Button x:Name="DemoButton" TextColor="White" Text="See a demo of the app" VerticalOptions="End" AutomationId="DemoButton"/>
 
     </StackLayout>
   </Grid>

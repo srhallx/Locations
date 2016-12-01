@@ -2,5 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Locations.HomePage">
-  <Label Text="Home Page" VerticalOptions="Center" HorizontalOptions="Center" AutomationId="HomePage" />
+  <StackLayout>
+    <Label Text="Home Page" HorizontalTextAlignment="Center" AutomationId="HomePage" />
+    <Label Text="Cool stuff goes here." HorizontalTextAlignment="Center"/>
+  </StackLayout>
 </ContentPage>
