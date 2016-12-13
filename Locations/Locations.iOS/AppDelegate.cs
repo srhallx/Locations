@@ -33,7 +33,8 @@ namespace Locations.iOS
 #endif
 
             LoadApplication(new App());
-        
+
+           
                 
             return base.FinishedLaunching(app, options);
         }

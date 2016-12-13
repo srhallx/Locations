@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Locations.HomePage">
   <StackLayout>
-    <Label Text="Home Page" HorizontalTextAlignment="Center" AutomationId="HomePage" />
-    <Label Text="Cool stuff goes here." HorizontalTextAlignment="Center"/>
+    <Label x:Name="Pictogram" Text="?" HorizontalTextAlignment="Center" AutomationId="HomePage" FontSize="200" />
+    <Entry x:Name="MyEntry" Placeholder="Enter symbol"/>
   </StackLayout>
 </ContentPage>
