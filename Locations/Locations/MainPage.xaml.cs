@@ -18,7 +18,7 @@ namespace Locations
 
         private void DemoButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new NavigationPage(new HomePage()));
+			Navigation.PushAsync(new HomePage());
         }
     }
 }

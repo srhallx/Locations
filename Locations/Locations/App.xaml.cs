@@ -17,7 +17,7 @@ namespace Locations
             InitializeComponent();
             MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 
-            MainPage = new Locations.MainPage();
+			MainPage = new NavigationPage(new Locations.MainPage());
         }
 
         protected override void OnStart()
