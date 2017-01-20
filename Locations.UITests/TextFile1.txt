@@ -3,3 +3,9 @@ mobile-center test run uitest --app "sthall-1jkf/locations" --devices 74654c49 -
 
 ### 1 Device
 mobile-center test run uitest --app "sthall-1jkf/locations" --devices 78d6d6cd --app-path ..\..\..\..\Desktop\Locations.iOS.ipa  --test-series "master" --locale "en_US" --assembly-dir .\Locations.UITests\bin\Debug --debug
+
+
+### Android 2 Devices
+mobile-center test run uitest --app "sthall-1jkf/locations-01" --devices 3ab9b7f0 --app-path .\Locations.Android\bin\Release\Locations.Android.Locations.Android.apk --test-series "master" --locale "en_US" --assembly-dir .\Locations.UITests\bin\Release
+
+

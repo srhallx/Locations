@@ -9,6 +9,7 @@ namespace Locations.UITests
 {
   
     [TestFixture(Platform.iOS)]
+    [TestFixture(Platform.Android)]
     public class Tests
     {
         IApp app;

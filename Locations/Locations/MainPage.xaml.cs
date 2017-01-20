@@ -15,10 +15,8 @@ namespace Locations
         {
             InitializeComponent();
 
+            //Button click handler
             DemoButton.Clicked += DemoButton_Clicked;
-
-            
-
         }
 
         private void DemoButton_Clicked(object sender, EventArgs e)
