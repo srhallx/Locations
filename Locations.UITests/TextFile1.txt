@@ -1,0 +1,5 @@
+﻿### 11 Devices
+mobile-center test run uitest --app "sthall-1jkf/locations" --devices 74654c49 --app-path ..\..\..\..\Desktop\Locations.iOS.ipa  --test-series "master" --locale "en_US" --assembly-dir .\Locations.UITests\bin\Debug
+
+### 1 Device
+mobile-center test run uitest --app "sthall-1jkf/locations" --devices 78d6d6cd --app-path ..\..\..\..\Desktop\Locations.iOS.ipa  --test-series "master" --locale "en_US" --assembly-dir .\Locations.UITests\bin\Debug --debug

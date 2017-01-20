@@ -12,15 +12,24 @@ namespace Locations
 {
     public partial class App : Application
     {
+        public static App Instance;
+
         public App()
         {
             InitializeComponent();
+            Instance = this;
+
             MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 
 			MainPage = new NavigationPage(new Locations.MainPage());
         }
 
-        protected override void OnStart()
+        public void ClearNavigationAndGoToPage(ContentPage page)
+        {
+            MainPage = new NavigationPage(page);
+        }
+ 
+    protected override void OnStart()
         {
             // Handle when your app starts
         }

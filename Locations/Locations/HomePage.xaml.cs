@@ -13,6 +13,21 @@ namespace Locations
         public HomePage()
         {
             InitializeComponent();
+
+            MyEntry.TextChanged += MyEntry_TextChanged;
+            MyEntry.Keyboard = Keyboard.Text;
+
+        }
+
+        private void MyEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (MyEntry.Text.Length > 0)
+            {
+                Pictogram.Text = MyEntry.Text;
+                MyEntry.Text = "";
+                MyEntry.Unfocus();
+            }
+
         }
     }
 }
