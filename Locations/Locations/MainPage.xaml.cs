@@ -21,6 +21,7 @@ namespace Locations
 
         private void DemoButton_Clicked(object sender, EventArgs e)
         {
+			Navigation.PushAsync(new HomePage());
             Analytics.TrackEvent("Demo mode");
             App.Instance.ClearNavigationAndGoToPage(new HomePage());
         }

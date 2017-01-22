@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Locations.HomePage">
-  <StackLayout>
+  <StackLayout Padding="30,0,30,0">
     <Label x:Name="Pictogram" Text="?" HorizontalTextAlignment="Center" AutomationId="HomePage" FontSize="200" />
     <Entry x:Name="MyEntry" Placeholder="Enter symbol"/>
+	<Label Text="Hello"/>
   </StackLayout>
 </ContentPage>

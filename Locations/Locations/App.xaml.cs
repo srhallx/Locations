@@ -21,7 +21,7 @@ namespace Locations
 
             MobileCenter.Start(typeof(Analytics), typeof(Crashes));
 
-            MainPage = new Locations.MainPage();
+			MainPage = new NavigationPage(new Locations.MainPage());
         }
 
         public void ClearNavigationAndGoToPage(ContentPage page)
