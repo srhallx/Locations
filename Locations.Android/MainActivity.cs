@@ -30,6 +30,7 @@ namespace Locations.Android
             LoadApplication(new App());
 
             // Set our view from the "main" layout resource
+
             // SetContentView (Resource.Layout.Main);
             
         }
