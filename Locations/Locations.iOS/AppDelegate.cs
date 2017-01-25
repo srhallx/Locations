@@ -29,6 +29,7 @@ namespace Locations.iOS
             MobileCenter.Configure("0fe83814-e20f-4c9f-b73e-3723c086e9a1");
 
             //I SURE HOPE THIS WORKS
+            //PLEASE WORK!!!
 
 #if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
