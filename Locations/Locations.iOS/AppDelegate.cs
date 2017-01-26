@@ -30,6 +30,7 @@ namespace Locations.iOS
 
             //I SURE HOPE THIS WORKS
             //PLEASE WORK!!!
+            //NEW COMMENT
 
 #if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
