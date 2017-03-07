@@ -39,6 +39,7 @@ namespace Locations.iOS
 
             LoadApplication(new App());
 
+//TODO:  Need to do more cool stuff here
            
                 
             return base.FinishedLaunching(app, options);
